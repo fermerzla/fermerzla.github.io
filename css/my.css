@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#body{
+	background: url(../img/морковка.gif);
+	 background-size: 200px;
+}
+body{
+		background-color: rgba(251, 206, 177, 0.7);
+	font-size: 1.2em;
+	color: #000;
+}
+p{
+	padding: 0 0 20px 0;
+	line-height:1.7em; 
+}
+input[type="text"], input [type="password"], input[ type="search"]{
+	color: #000;
+	width: 60%;
+	padding: 8px;
+}
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+
+h1,h2{
+	font:normal 170% "century gothic", arial;
+	margin:  0 0 15px 0;
+	padding: 15px 0 5px 0;
+	color: #000;
+}
+h2{
+	font-size: 140%;
+}
+a, a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: #aeb002;
+}
+ul{
+	margin: 2px 0 22px 17px;
+}
+ul li{
+	margin:  0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+
+}
+ul li a {
+	text-decoration: none;
+}
+.header {
+	background-color: rgb(255, 178, 139);
+	height: 177px;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+.main, .logo, .menubar, .site_content, .footer{
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo{
+	width: 880px;
+	padding-bottom: 40px;
+}
+ .logo h1, .logo h2{
+ 	font: normal 300% "century gothic", arial, sans-serif;
+ 	margin: 0 0 0 9px;
+
+ }
+.logo_text h1, .logo_text h1 a , .logo_text h1 a:hover {
+	padding: 22px 0 0 0;
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+.logo_text h2{
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #fff; 
+}
+.menubar{
+	width: 900px;
+	height: 46px;
+}
+ul.menu {
+	float: right;
+}
+ul.menu li {
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin:  1px 2px 0 0;
+}
+ul.menu li a {
+	font: normal 100% "trebuchet ms", sans-serif;
+	display: block;
+	height: 20px;
+	padding:  6px 35px 5px 28px;
+	color: #000;
+	text-decoration: none;
+}
+ul.menu li.selected a {
+	color: #aeb;
+}
+ul.menu li a:hover {
+	color: #e4ec04;
+	background-color: rgb(230 80 80);
+}
+.site_content{
+	width: 880px;
+	overflow: hidden;
+	margin:20px auto 0 auto;
+	background-color: rgb(254 230 230);
+}
+.sitebar_conteiner{
+	float: right;
+	width: 224px;
+}
+.sitebar{
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 1px #f2f2f2;
+	border-radius: 5px;
+	background-color: #f9f9f9
+}
+.btn{
+	padding: 8px;
+	background-color: rgb(250 170 170);
+	cursor: pointer;
+}
+
+.sitebar h2 {
+	color: #136cb2;
+}
+.lables_passreg_text{
+	font-size: 0.7em;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+.sitebar ul{
+	margin: 0;
+}
+.sitebar ul li {
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+.sitebar .rating_sitebar{
+	float: right;
+}
+
+.content{
+	text-align: left;
+	padding: 0 0 0 5px;
+	float: left;
+}
+.content a {
+	text-decoration: none;
+}
+
+.luch {
+	margin-bottom: 5%;
+}
+.luch img{
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 22%;
+}
+.info_film_page{
+	margin-top:2%;
+	margin-bottom: 4%; 
+}
+.info_film_page .label{
+	font-size: 1.2em;
+}
+.info_film_page .value{
+	font-size: 1em;
+	color: #49945a;
+	margin-right: 4%;
+}
+
+.description_film{
+	margin-bottom: 15%;
+
+}
+.description_film img{
+	float:  left;
+		margin-right: 2%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+
+
+}
+.reviws{
+	margin-bottom: 	4%;
+	font-size: 0.9em;
+}
+.reviws .reviw_name{
+	background-color: rgb(250 100 100);
+	color: #fff;
+	padding: 1%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.reviws .reviw_text{
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 5%;
+
+}
+.send{
+	margin-bottom: 4%;
+}
+.send input [type="text"], textarea{
+	border: solid 1px rgba(255, 255, 255, 0.5);
+	margin-bottom: 2%;
+
+}
+.send input [type="text"] {
+	width: 98%;
+
+}
+.send textarea{
+	width: 624px;
+	height: 200px;
+}
+.send input [type="submit"]{
+	background-color: rgb(250 170 170);
+	padding: 3%;
+	color: #fff;
+	border-radius: 5px;
+}
+#ask p,form{
+	display: inline;
+	padding: 0;
+	margin:10px;
+}
+.footer{
+	width: 100%;
+	height:100px;
+	padding:  28px 0 5px 0;
+	text-align: center;
+	background-color: rgb(255 178 139);
+	color: #fff;
+	margin-left: 0px;
+	margin-right: 0px;
+	bottom: 0;
+	position: absolute;
+
+
+}
+iframe {
+	width: 850px;
+	 height: 430px;
+
+}
+.footer a{
+	color: #ff5;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #fff;
+}
+.footer p {
+	padding: 0 0 10px 0;
+}
+
+/* CSS Mobile*/
+@media only screen
+and (min-device-width :320px)
+and (max-device-width :568px){
+	.header{
+	min-width: 100%;
+	height: 20%;
+	text-align: center;
+	}
+.logo{
+	width: 100%;
+	padding-bottom: 10px;
+	margin-top: 1px;
+}
+.site_content{
+	width: 100%;
+	text-align: center;
+}
+.menubar{
+	width: 100%;
+	height: 100%;
+}
+.content{
+	width: 100%;
+	text-align: center;
+}
+.sitebar_conteiner{
+	display: none;
+
+}
+.footer{
+	width: 100%;
+	font-size: 70%;
+}
+ul.menu {
+	float: none;
+}
+ul.menu li {
+	margin:0;
+	padding: 0;
+	float: none;
+}
+ul.menu li a {
+	margin:0;
+	padding: 2px;
+}
+.logo h1{
+	font: normal 220% 'century gothic', arial, sans-serif; 
+	padding-top: 5px;
+}
+.logo h2{
+	font: normal 100% 'century gothic', arial, sans-serif; 
+	color: #fff;
+}
+.content h1, h1{
+		font: normal 110% 'century gothic', arial;
+
+}
+.luch img{
+	width: 40%;
+}
+img{
+	width: 40%;
+}
+iframe {
+	width: 16em;
+	height: 9em;
+
+
+}
+
+}
