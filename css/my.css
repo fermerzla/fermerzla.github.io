@@ -344,5 +344,12 @@ iframe {
 
 
 }
+#shar{
+	width: 100px;
+	margin-top: 200px;
 
+}
+#shar2{
+	display: none;
+}
 }
